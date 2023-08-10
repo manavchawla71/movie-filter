@@ -2,10 +2,6 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-  <title>Movie Filtering Web App</title>
-</head>
-
 <body>
 
   <h1>Movie Filtering Web App</h1>
