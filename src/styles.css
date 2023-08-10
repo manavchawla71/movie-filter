@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700&display=swap");
+
+.App {
+  font-family: "Sora", sans-serif;
+}
+
+body {
+  margin: auto;
+  max-width: 80%;
+  padding: 0.5rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-family: "Sora", sans-serif;
+  margin: 0.5rem;
+  background-color: #0059f7;
+  color: white;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+img {
+  width: 125px;
+  border-radius: 0.5rem;
+}
+
+li {
+  display: flex;
+  margin: 1.5rem 0;
+}
+
+.imageTitle {
+  margin: 1rem;
+}
+p {
+  color: #7e8bb6;
+}
+
+.footer-header {
+  text-align: center;
+}
+
+.App a {
+  text-decoration: none;
+  margin: 1rem;
+  color: #7e8bb6;
+}
+
+.footer {
+  text-align: center;
+}
+.theme {
+  display: flex;
+}
+/* Add styles for the header container */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f2f2f2;
+}
+
+/* Style the header content */
+.header-content {
+  display: flex; /* Apply flex display */
+  align-items: center; /* Center items vertically */
+  margin-right: 1pc;
+}
+/* Light Theme */
+[data-theme="light"] {
+  --background-color: #ffffff;
+  --text-color: #333333;
+}
+
+/* Dark Theme */
+[data-theme="dark"] {
+  --background-color: #333333;
+  --text-color: #ffffff;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
